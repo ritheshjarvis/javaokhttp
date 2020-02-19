@@ -9,6 +9,12 @@ import java.util.Iterator;
 
 public class testhttp {
     public static void main(String[] args) throws IOException, ParseException {
+        /**
+         https://mkyong.com/java/okhttp-how-to-send-http-requests/
+        https://www.vogella.com/tutorials/JavaLibrary-OkHttp/article.html
+        for parsing:
+        https://dzone.com/articles/how-to-parse-json-data-from-a-rest-api-using-simpl
+         */
         OkHttpClient client = new OkHttpClient().newBuilder().build();
 
         MediaType mediaType = MediaType.parse("application/json");
