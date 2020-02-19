@@ -12,8 +12,8 @@ public class SecondClass {
 
         MediaType mediaType = MediaType.parse("application/json");
 
-//        RequestBody body = RequestBody.create(mediaType, "{\n\t\"email\":\"tub@getnada.com\",\n\t\"password\":\"tub@123\"\n}");
-        RequestBody body = RequestBody.create(mediaType, "{\n\t\"email\":\"rithesh535@yopmail.com\",\n\t\"password\":\"Admin123\"\n}");
+        RequestBody body = RequestBody.create(mediaType, "{\n\t\"email\":\"tub@getnada.com\",\n\t\"password\":\"tub@123\"\n}");
+//        RequestBody body = RequestBody.create(mediaType, "{\n\t\"email\":\"rithesh535@yopmail.com\",\n\t\"password\":\"Admin123\"\n}");
 
         Request request = new Request.Builder()
                 .url("https://pikachu.outagedetection.com/users/authenticate")
